@@ -27,3 +27,23 @@ body {
   margin: 0 auto;
   height: 657px;
 }
+
+.fun
+{
+  background-image: url('js\assets\iconFun.svg');
+}
+
+.health
+{
+  background-image: url('js\assets\iconHealth.svg');
+}
+
+.hunger
+{
+  background-image: url('js\assets\iconHunger.svg');
+}
+
+.sleep
+{
+  background-image: url('js\assets\iconSleep.svg');
+}

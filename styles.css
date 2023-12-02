@@ -28,22 +28,92 @@ body {
   height: 657px;
 }
 
-.fun
+.parameters
 {
-  background-image: url('js\assets\iconFun.svg');
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  margin: 0 20px;
+  position: absolute;
+  top: 40px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
-.health
+.Tamago
 {
-  background-image: url('js\assets\iconHealth.svg');
+  width: 152px;
+  height: 138px;
+  flex-shrink: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.mood
+{
+  color: #724D50;
+  text-align: center;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400;
+  position: relative;
+  top: -180px;
+}
+
+.buttons
+{
+  width: 293px;
+  height: 76px;
+  display: flex;
+  justify-content: flex-end;
+  cursor: pointer;
+  border: none;
+  gap: 34px;
+  position: relative;
+  overflow: hidden;
+  top: -150px;
 }
 
 .hunger
 {
-  background-image: url('js\assets\iconHunger.svg');
+  float: right;
+  margin: 10px;
+  border: none;
+  background: none;
+  background-image: url('js\assets\ellipse.svg');
 }
 
 .sleep
 {
-  background-image: url('js\assets\iconSleep.svg');
+  float: right;
+  margin: 10px;
+  border: none;
+  background: none;
+  background-image: url('js\assets\ellipse.svg');
+}
+
+.fun
+{
+  float: right;
+  margin: 10px;
+  border: none;
+  background: none;
+  background-image: url('js\assets\ellipse.svg');
+}
+
+.hunger:hover
+{
+  background-image: url('js\assets\ellipseHover.svg');
+}
+
+.sleep:hover
+{
+  background-image: url('js\assets\ellipseHover.svg');
+}
+
+.fun:hover
+{
+  background-image: url('js\assets\ellipseHover.svg');
 }

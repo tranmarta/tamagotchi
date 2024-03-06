@@ -30,25 +30,26 @@ body {
 
 .parameters
 {
-  display: inline-block;
-  justify-content: center;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
-  flex-shrink: 0;
-  width: 40px;
-  height: 40px;
   margin: 0 20px;
   position: absolute;
-  top: 10px;
-  left: 50%;
-  transform: translateX(-50%);
+  z-index: 1;
+  width: 293px;
+  height: 60px;
+  top: 136px;
+  left: 41px;
+  left: 38%;
+  top: 15%;
 }
 
 .rectangle
 {
+  display: grid;
+  place-items: center;
   position: absolute;
-  top: 10%;
-  left: 30%;
-  z-index: 2;
+  inset: 0px 20px 100px 20px;
 }
 
 .spirit-tamago
@@ -87,8 +88,9 @@ body {
   border: none;
   gap: 34px;
   position: relative;
-  overflow: hidden;
   top: -150px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .hunger
@@ -97,7 +99,10 @@ body {
   margin: 10px;
   border: none;
   background: none;
-  background: url('js\assets\ellipse.svg');
+  background: url("js/assets/ellipse.svg");
+  width: 68.182px;
+  height: 68.06px;
+  flex-shrink: 0;
 }
 
 .sleep
@@ -106,7 +111,10 @@ body {
   margin: 10px;
   border: none;
   background: none;
-  background-image: url('js\assets\ellipse.svg');
+  background-image: url("js/assets/ellipse.svg");
+  width: 68.182px;
+  height: 68.06px;
+  flex-shrink: 0;
 }
 
 .fun
@@ -115,20 +123,38 @@ body {
   margin: 10px;
   border: none;
   background: none;
-  background-image: url('js\assets\ellipse.svg');
+  background-image: url("js/assets/ellipse.svg");
+  width: 68.182px;
+  height: 68.06px;
+  flex-shrink: 0;
 }
 
 .hunger:hover
 {
-  background-image: url('js\assets\ellipseHover.svg');
+  background-image: url("js/assets/ellipseHover.svg");
+  background-size: cover;
+  background-position: center;
+  width: 75px;
+  height: 76px;
+  flex-shrink: 0;
 }
 
 .sleep:hover
 {
-  background-image: url('js\assets\ellipseHover.svg');
+  background-image: url("js/assets/ellipseHover.svg");
+  background-size: cover;
+  background-position: center;
+  width: 75px;
+  height: 76px;
+  flex-shrink: 0;
 }
 
 .fun:hover
 {
-  background-image: url('js\assets\ellipseHover.svg');
+  background-image: url("js/assets/ellipseHover.svg");
+  background-size: cover;
+  background-position: center;
+  width: 75px;
+  height: 76px;
+  flex-shrink: 0;
 }
